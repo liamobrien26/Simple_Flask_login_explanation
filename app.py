@@ -58,7 +58,7 @@ class User(UserMixin):
     def __init__(self, id):  
         self.id = id  
 
-# Define a mock user database with usernames and passwords
+# Define a static database with sample usernames and passwords
 users = {'user1': {'password': 'password1'}, 'user2': {'password': 'password2'}}  
 
 # Create a LoginManager instance to manage user login sessions
